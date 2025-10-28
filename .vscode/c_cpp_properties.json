@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "devkitARM",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${env:DEVKITPRO}/libctru/include",
+        "${env:DEVKITARM}/arm-none-eabi/include"
+      ],
+      "defines": ["__3DS__"],
+      "compilerPath": "${env:DEVKITARM}/bin/arm-none-eabi-gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-arm"
+    }
+  ],
+  "version": 4
+}
